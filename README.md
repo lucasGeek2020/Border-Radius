@@ -1,2 +1,2 @@
 # Border-Radius
- Calculetor of Border Radio CC3
+ Calculetor of Border Radio CSS3
