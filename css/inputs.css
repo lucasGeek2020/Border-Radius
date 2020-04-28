@@ -1,8 +1,28 @@
+input {
+    -webkit-appearance: none; 
+    appearance: none;
+  }
+
 .input-border{
     width: 50px;
-    height: 20px;
+    height: 30px;
     background-color: #27323B;
     border: none;
     color:#ccc9dc;
     border-radius: 5px;
+    margin-left: 15px;
+    text-align: center;
+    font-size: 25px;
+    
+}
+.father-input{
+    display: flex;
+    justify-content: center;
+}
+
+.father-input label{
+    color:#ccc9dc;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 5px;
 }

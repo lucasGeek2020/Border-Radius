@@ -1,0 +1,18 @@
+.container-border{
+   display: flex;
+   margin-top: 30px;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: #4387BA;
+    width: 450px;
+    height:450px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-result{
+    background-color: aliceblue;
+    width: 300px;
+    height: 300px;
+   
+}
