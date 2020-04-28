@@ -12,21 +12,23 @@
         <h1>border radius</h1>
     </header>
     <section>
-        <div class="father-input">
-            <input type="number" step="5" id="top-left" name="top-left" size="5" min="0" class="input-border"/>
-            <label for="top-rigth">px</label>
-            <input type="number" step="5" id="top-rigth" name="top-rigth" size="5" min="0" class="input-border"/>
-            <label for="top-left">px</label>
-            <input type="number" step="5" id="bottom-rigth" name="bottom-rigth" size="5" min="0" class="input-border"/>
-            <label for="bottom-rigth">px</label>
-            <input type="number" step="5" id="bottom-left" name="bottom-left" size="5" min="0" class="input-border"/>
-            <label for="bottom-left">px</label>
-        </div>
+        
         <div class="container-border" id='container-border'>
-            <div  class="container-result">
-                <output name="result"></output>
+            <div class="father-input">
+                <div class="top-inputs">
+                    <input type="range" step="5" id="top-left" name="top-left" size="5" min="0" value="0" max='300'class="input-border"/>
+                    <input type="range" step="5" id="top-rigth" name="top-rigth" size="5" min="0" value="0" max='300' class="input-border"/>
+                </div>
+                <div class="bottom-inputs">
+                    <input type="range" step="5" id="bottom-left" name="bottom-left" size="5" min="0" value="0" max='300' class="input-border"/>
+                    <input type="range" step="5" id="bottom-rigth" name="bottom-rigth" size="5" min="0" value="0" max='300' class="input-border"/>
+                 </div>
             </div>
         </div>
+
+        <!--  <div  class="container-result">
+                <output name="result"></output>
+            </div>-->
     </section>
 
     <script src="./js/main.js"></script>

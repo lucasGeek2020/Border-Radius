@@ -1,13 +1,12 @@
 .container-border{
-   display: flex;
+  
    margin-top: 30px;
    margin-left: auto;
    margin-right: auto;
-   background-color: #4387BA;
-    width: 450px;
-    height:450px;
-    align-items: center;
-    justify-content: center;
+   background:  radial-gradient(#4387BA,#416DD1 60%);
+    width: 400px;
+    height:400px;
+    z-index: -1;
 }
 
 .container-result{
