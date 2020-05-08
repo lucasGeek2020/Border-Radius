@@ -17,6 +17,12 @@ input {
     
     
 }
+#all{
+    height: 10px;
+    width: 200px;
+    background-color:#867FE8;
+}
+
 
 .input-border::-webkit-slider-thumb{
     -webkit-appearance: none; 
