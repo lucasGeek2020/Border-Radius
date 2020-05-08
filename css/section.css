@@ -1,0 +1,18 @@
+.sec-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+.result{
+    padding-left: 2%;
+}
+
+.result textarea{
+    
+    max-width: 400px;
+    max-height: 400px;
+    width: 250px;
+    height: 350px;
+    border-radius: 8px;
+}
